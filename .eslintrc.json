@@ -1,3 +1,14 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "next/core-web-vitals"
+  ],
+  "parserOptions": {
+    "sourceType": "script"
+  },
+  "plugins": ["jest"],
+  "env": {
+    "jest/globals": true
+  }
 }
