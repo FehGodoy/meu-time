@@ -104,7 +104,10 @@ const BoxLogin = () => {
             <div className="disclaimer">
               <p>
                 Caso não tenha a chave, acesse{" "}
-                <a href="#" target="_blank">
+                <a
+                  href="https://dashboard.api-football.com/register"
+                  target="_blank"
+                >
                   aqui
                 </a>{" "}
                 para se cadastrar
