@@ -1,38 +1,93 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+![App Screenshot](https://godoydev.com.br/imagem-qualquer/teste.png)
 
-First, run the development server:
+
+# Meu Time
+
+"Meu Time" é um aplicativo web inovador e abrangente desenvolvido com as tecnologias React.js, Next.js e TypeScript. Ele oferece aos usuários a possibilidade de explorar informações detalhadas sobre times de futebol de todo o mundo.
+
+Com o "Meu Time", os usuários têm acesso a uma ampla gama de recursos relacionados aos seus times favoritos. Eles podem pesquisar e visualizar informações detalhadas sobre jogadores, incluindo estatísticas individuais, histórico de desempenho e posições em campo. Além disso, o aplicativo apresenta formações táticas mais utilizadas pelos times, permitindo aos usuários entender melhor as estratégias e táticas empregadas em diferentes partidas.
+
+Uma característica especial do "Meu Time" é a exibição de gráficos de gols por minuto, proporcionando uma visão visual do desempenho dos times ao longo do tempo. Os usuários podem analisar a distribuição dos gols marcados em cada minuto do jogo, identificando momentos de maior efetividade e comparando o desempenho entre times diferentes.
+
+
+
+
+## Instalação
+Para rodar este aplicativo localmente, siga as instruções abaixo:
+
+Clone este repositório:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+  git clone https://github.com/FehGodoy/meu-time.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Entre no diretório do projeto:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```bash
+  cd meu-time
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Instale as dependências do projeto:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+  npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Inicie o servidor de desenvolvimento:
 
-## Learn More
+```bash
+  npm run dev
+```
+    
+## Executando os testes
 
-To learn more about Next.js, take a look at the following resources:
+Na raiz do projeto, execute o seguinte comando
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash
+  npm run test
+```
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Uso
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Ao acessar a aplicação você conseguirá ver um botão 'Acessar agora', onde deverá realizar o login, utilizando sua chave da API Football.
+
+Após isso irá aparecer parao usuário uma listagem de todos os países, com isso o mesmo deverá selecionar o país de sua preferência e seguir dessa forma para as demais informações.
+## Stack utilizada
+
+**Front-end:** React,TypeScript, Styled Components, Phosphor Icons, React Hook Form, React-chartjs-2, Material UI,Jest, Testing Library, Next.js.
+
+**Back-end:** TypeScript,Jest, Testing Library
+
+
+## Entrega das funcionalidades
+
+Alguns pontos que foram entregues nesta aplicação:
+
+- Login somente com a Api Key de Autenticação.
+- Validação caso a API seja Inválida.
+-  Só é possível consultar dados do time após o login.
+- Só é possível selecionar um país,liga, temporada ou time por vez.
+- Lista de jogadores, com nome, idade e nacionalidade
+- Formação mais utilizada na temporada
+- Tabela de resultados
+- Gráfico da quantidade de gols.
+- Testes
+- Responsividade
+
+Alguns pontos que precisam ser melhorados nesta aplicação:
+
+- Melhorar os testes realizados.
+- Talvez ter inserido um campo de busca por países,ligas ou times.
+
+
+
+
+
+
+## Feedback
+
+Se você tiver algum feedback, por favor nos deixe saber por meio de felip.godoy10@gmail.com
+
