@@ -6,7 +6,7 @@
 
 "Meu Time" é um aplicativo web inovador e abrangente desenvolvido com as tecnologias React.js, Next.js e TypeScript. Ele oferece aos usuários a possibilidade de explorar informações detalhadas sobre times de futebol de todo o mundo.
 
-Com o "Meu Time", os usuários têm acesso a uma ampla gama de recursos relacionados aos seus times favoritos. Eles podem pesquisar e visualizar informações detalhadas sobre jogadores, incluindo estatísticas individuais, histórico de desempenho e posições em campo. Além disso, o aplicativo apresenta formações táticas mais utilizadas pelos times, permitindo aos usuários entender melhor as estratégias e táticas empregadas em diferentes partidas.
+Com o "Meu Time", os usuários têm acesso a uma ampla gama de recursos relacionados aos seus times favoritos. Eles podem pesquisar e visualizar informações detalhadas sobre jogadores. Além disso, o aplicativo apresenta formações táticas mais utilizadas pelos times, permitindo aos usuários entender melhor as estratégias e táticas empregadas em diferentes partidas.
 
 Uma característica especial do "Meu Time" é a exibição de gráficos de gols por minuto, proporcionando uma visão visual do desempenho dos times ao longo do tempo. Os usuários podem analisar a distribuição dos gols marcados em cada minuto do jogo, identificando momentos de maior efetividade e comparando o desempenho entre times diferentes.
 
